@@ -1,0 +1,52 @@
+
+
+#!/bin/bash
+
+
+
+mkdir ~/TrueLayer
+
+touch ~/TrueLayer/TLTest.txt
+
+cat date >> ~/TrueLayer/TLTest.txt
+
+cat $0 >> ~/TrueLayer/TLTest.txt
+
+cat ls -la >> ~/TrueLayer/TLTest.txt
+
+curl ipinfo.io/ip >> ~/TrueLayer/TLTest.txt
+
+cat free -m >> ~/TrueLayer/TLTest.txt
+
+cat whoami >> ~/TrueLayer/TLTest.txt
+
+cat id -u >> ~/TrueLayer/TLTest.txt
+
+
+echo >> "this script has been run $i times"; i++
+
+
+--------------------------------------------------
+
+1) mytool must be referenced with absolute path  /usr/local/mytol
+
+2) dunno
+
+3)  multiple Line input 
+
+
+
+4) cat << EOF > test.txt
+
+ls -la Folder > ~/test.txt
+
+
+5)     /usr/bin/ssh-copy-id  user@hostname
+
+
+
+
+
+
+
+
